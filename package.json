@@ -1,0 +1,39 @@
+{
+    "name": "grunt-build",
+    "description": "Execute a set of build tasks based on an environment target.",
+    "keywords": [
+        "gruntplugin"
+    ],
+    "version": "0.1.0",
+    "homepage": "https://github.com/voceconnect/grunt-build",
+    "author": {
+      "name": "Michael Pretty (prettyboymp)",
+      "email": "mpretty@voceconnect.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/voceconnect/grunt-build.git"
+    },
+    "bugs": {
+      "url": "https://github.com/voceconnect/grunt-build/issues"
+    },
+    "licenses": [
+      {
+        "type": "MIT",
+        "url": "https://github.com/voceconnect/grunt-build/blob/master/LICENSE-MIT"
+      }
+    ],
+    "main": "Gruntfile.js",
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "devDependencies": {
+        "grunt-contrib-coffee": "0.6.x",
+        "grunt-coffeelint" : "0.0.6",
+        "grunt": "~0.4.x"
+    },
+    "peerDependencies": {
+        "grunt": "~0.4.0"
+    },
+    "dependencies": {}
+}
