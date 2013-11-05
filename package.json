@@ -1,5 +1,5 @@
 {
-    "name": "grunt-peon-build",
+    "name": "grunt-build",
     "description": "Execute a set of build tasks based on an environment target.",
     "keywords": [
         "gruntplugin"
