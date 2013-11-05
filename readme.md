@@ -5,11 +5,11 @@ The build task acts like an [alias task](http://gruntjs.com/creating-tasks#alias
 
 * Run the build task with the default target
 
-		grunt build
+    `grunt build`
 
 * Run the build task using development as the target.
 
-		grunt build:development
+    `grunt build:development`
 
 
 ## Configuration
@@ -36,4 +36,4 @@ The suggested configuration for the build task is to have a separate build task 
 
 #### Notes
 * Since 'uat' should almost always match 'production', you can leave out the 'uat' task aliases as long as the 'default' option is set to 'production.'
-* You can easily setup the watch task to point to the build:development task to automatically  take care of linting, compressing, and building files during development.
+* You can easily setup the watch task to point to the build:development task to automatically take care of linting, compressing, and building files during development.

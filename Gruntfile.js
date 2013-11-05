@@ -10,17 +10,18 @@
 module.exports = function (grunt) {
     "use strict";
     grunt.initConfig({
-        build: {
-            options: {default: 'development'},
-            development: ['coffeelint']
+        "build": {
+            "options": {
+                "default": "development"
+            },
+            "development": ["coffeelint"]
         },
-        coffeelint: {
-            app: ['tasks/*.coffee']
+        "coffeelint": {
+            "app": ["tasks/*.coffee"]
         }
     });
 
     grunt.loadTasks('tasks');
-
     grunt.loadNpmTasks('grunt-coffeelint');
 
     grunt.registerTask('default', ['build']);
