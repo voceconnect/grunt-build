@@ -1,4 +1,4 @@
-# Build
+# Grunt Peon Build
 The build task acts like an [alias task](http://gruntjs.com/creating-tasks#alias-tasks) in that it will run multiple tasks as part of the build process, but also accepts targets.  However, the big difference is that these tasks are defined by the config, allowing multiple targets to be setup.  The main purpose of the build task is to execute tasks that normally compile non-source-controlled copies of code.
 
 ## Usage Examples
